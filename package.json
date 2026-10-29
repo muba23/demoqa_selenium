@@ -1,0 +1,15 @@
+{
+  "name": "module8_selenium",
+  "version": "1.0.0",
+  "description": "This is module 8 assignment project.",
+  "license": "ISC",
+  "author": "Mubashshira",
+  "type": "module",
+  "main": "base.js",
+  "scripts": {
+    "test": "node base.js"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.51.0"
+  }
+}
