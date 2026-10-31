@@ -19,5 +19,5 @@ try {
     }
 
 } finally {
-   // await result.closeBrowser();
-    }
+   //await result.closeBrowser();
+}

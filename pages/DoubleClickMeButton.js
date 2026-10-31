@@ -48,4 +48,3 @@ class DoubleClickMeButton {
 }
 
 export {DoubleClickMeButton};
-    
