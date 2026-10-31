@@ -6,11 +6,12 @@ class EnterNameInTextBox {
         this.writeUserName = By.id('userName');
     }
 
-    //creating methods to find elements by different locators
+//creating methods to find elements by different locators
 
     //open the browser and navigate to the given URL
     async openBrowser(){
         await this.driver.get("https://demoqa.com/text-box");
+        await this.driver.manage().window().maximize(); //maximize the browser window
     }
 
     //write the user name on the text box
@@ -26,8 +27,6 @@ class EnterNameInTextBox {
         console.log("Entered Name: " + enteredName);
         return enteredName;
     }
-
-
     //close the browser
     async closeBrowser(){
         await this.driver.quit();
@@ -52,5 +51,5 @@ try {
     }
 
 } finally {
-    // await result.closeBrowser();
+   // await result.closeBrowser();
     }
